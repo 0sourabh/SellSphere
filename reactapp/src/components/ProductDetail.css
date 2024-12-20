@@ -1,0 +1,43 @@
+.product-detail-container {
+    padding: 20px;
+}
+
+.product-detail-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-images {
+    flex: 1;
+}
+
+.product-image {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.product-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.price-text {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact-info h4, .contact-info h6 {
+    margin: 5px 0;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-buttons .btn {
+    margin-right: 10px;
+}
